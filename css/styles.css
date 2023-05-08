@@ -84,18 +84,18 @@ a:active {
 }
 
 .wordline {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 .word {
   font-family: serif;
   font-weight: bold;
-  font-size: 25pt;
+  font-size: 20pt;
 }
 
 .note {
   font-family: serif;
-  font-size: 10pt;
+  font-size: 11pt;
   margin: 10px 30px 20px 35px;
 }
 
@@ -108,7 +108,7 @@ a:active {
   }
 
   .examples {
-    font-size: 15pt;
+    font-size: 14pt;
   }
 }
 
@@ -120,8 +120,12 @@ a:active {
     grid-row-gap: 10px;
   }
 
-  .examples {
+  .note {
     font-size: 10pt;
+  }
+
+  .examples {
+    font-size: 13pt;
     padding-left: 0;
   }
 }
